@@ -5,8 +5,7 @@ Eine Erkärung für html und deren Grundfunktionen. Falls noch weitere Fragen k�
 </h2>
 
 <h3>
-<a id="Inh">Inhaltsverzeichins</a>
-<h/3>
+<a id="Inh">Inhaltsverzeichins</a></h3>
 
 <p>1. Überschriften</p>
 
@@ -19,7 +18,8 @@ Eine Erkärung für html und deren Grundfunktionen. Falls noch weitere Fragen k�
 <li>8. Quellen</li>
 
 <h3>
-1.Überschriften</h3>
+1.Überschriften
+</h3>
 
 <h1>
 Überschrift
