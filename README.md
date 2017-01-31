@@ -122,7 +122,7 @@ Um einen äußeren Link zu erstellen wird dieselbe Form verwendet, die auch ein 
 
 <p><input class="spoilerbutton" type="button" value="Show" onclick="this.value=this.value=='Show'?'Hide':'Show';">
 <div class="spoiler"><div>
-<p><img src="images/Bild2.jpg" alt="Bild2" style="width:420px;height:420px;border:0;"></p>
+Krasser Inhalt
 </div></div></p>
 
 <h3>
