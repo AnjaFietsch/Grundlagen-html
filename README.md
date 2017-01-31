@@ -7,18 +7,19 @@ Eine Erkärung für html und deren Grundfunktionen. Falls noch weitere Fragen k�
 <h3>
 <a id="Inh">Inhaltsverzeichins</a></h3>
 
-<p>1. Überschriften</p>
-
-<li>2. Absätze</li>
-<li>3. fett / kursiv</li>
-<li>4. innere Links</li>
-<li>5. äußere Links</li>
-<li>6. Bilder</li>
-<li>7. Tabellen</li>
-<li>8. Quellen</li>
+<ul>
+<li><a href="#Übe">1. Überschriften</a></li>
+<li><a href="#Abs">2. Absätze</a></li>
+<li><a href="#Fet">3. fett / kursiv</a></li>
+<li><a href="#Inn">4. innere Links</a></li>
+<li><a href="#Äuß">5. äußere Links</a></li>
+<li><a href="#Bil">6. Bilder</a></li>
+<li><a href="#Tab">7. Tabellen</a></li>
+<li><a href="Que">8. Quellen</a></li>
+</ul>
 
 <h3>
-1.Überschriften
+<a id="Übe">1.Überschriften</a>
 </h3>
 
 <h1>
@@ -51,7 +52,7 @@ Eine Erkärung für html und deren Grundfunktionen. Falls noch weitere Fragen k�
 </h6>
 
 <h3>
-2. Absätze
+<a id="Abs">2. Absätze</a>
 </h3>
 
 <p>Um einen Absatz zu erstellen muss ein Befehl verwendet werden.</p>
@@ -75,19 +76,100 @@ Zeilenumbruch statt</p>
 </ul>
 
 <h3>
-3. fett / kursiv
+<a id="Fet">3. fett / kursiv</a>
 </h3>
 
 <p>Um <strong>fett</strong> zu schreiben wird der Befehl "strong" verwendet. <strong>Auch längere Texte können bearbeitet werden.</strong></p>
 
-<p>Um <i>kursiv<i> zu schreiben wird der Befehl "i" verwendet. <i>Auch hier gilt wieder die Regel für längere Texte.</i></p>
+<p>Um <i>kursiv</i> zu schreiben wird der Befehl "i" verwendet. <i>Auch hier gilt wieder die Regel für längere Texte.</i></p>
 
 <p>Es gibt noch weitere Befehle, die verwendet werden können, um Text zu formatieren. Diese können an "hier" nachgelesen werden.</p>
 
 <h3>
-4. innere Links
+<a id="Inn">4. innere Links</a>
 </h3>
 
 <p>Für innere Verlinkungen im Dokument, also zum Beispiel für ein Inhaltsverzeichnis, werden mehrere Befehle benötigt.</p>
 
 <p><a href="#Inh">Inhaltsverzeichnis</a></p>
+
+<p>Es wird also die Zeile als normaler Paragraph markiert, und mit dem Befehl "href=#(id Bookmark) und "a" die Verlinkung generiert.
+Zusätzlich muss an die Stelle, zu die der Link führen soll, markiert werden.<br>
+Dies geschieht durch eine id, die zugewiesen wird. Auch hier darf der Befehl "a" nicht ausgelassen werden.</p>
+
+<p>Jedes Bookmark, dass durch eine id markiert ist kann von jeder beliebigen Stelle aus aufgerufen werden und verlinkt werden und auch mehrfach verwendet werden.</p>
+
+<h3>
+<a id="Äuß">5. äußere Links</a>
+</h3>
+
+<p>Äußere Links, also Links, die zu anderen Websites führen, verhalten sich ähnlich wie die inneren Links.<br>
+Um einen äußeren Link zu erstellen wird dieselbe Form verwendet, die auch ein innerer Link verwendet, mit dem Unterschied, dass keine id notwendig ist, stattdessen wird der Link zum Ziel eingefügt.</p>
+
+<p><a href="http://stormarnschule.de/">Stormarnschule</a></p>
+
+<p>Solange der Link erreichbar ist findet eine automatische Weiterleitung statt und die Ziel-Website öffnet sich. Wie der Link, den man auf der Website sieht, heißt, spielt keine Rolle.</p>
+
+<h3>
+<a id="Bil">6. Bilder</a>
+</h3>
+
+<p>Bilder besitzen einen eigenen Befehl, auch die Größe der Bilder kann variiert werden um beispielsweise zwei Bilder nebeneinander zu stellen.</p>
+
+<p><img src="Bild1" alt="Bild1" style="width:42px;height:42px;border:0;"></p>
+
+<p>Die Bilder sollten in einem Ordner im  repository abgelegt sein, sodass diese problemlos geladen werden können.</p>
+
+<p><input class="spoilerbutton" type="button" value="Show" onclick="this.value=this.value=='Show'?'Hide':'Show';">
+<div class="spoiler"><div>
+<img src="Bild2" alt="Bild2" style="width:42px;height:42px;border:0;">
+</div></div></p>
+
+<h3>
+<a id="Tab">7. Tabellen</a>
+</h3>
+
+<p>Es gibt einfache Tabellen, die ohne großen Aufwand erstellt werden können, diesen können durch zusätzliche Befehle aber weitere Funktionen und individualisierungen zugewiesen werden.<br>
+Hier zeige ich eine einfache Tabelle, für weitere Informationen kann <a href="http://www.w3schools.com/html/html_tables.asp">hier</a> gesucht werden.</p>
+
+<table>
+<thead>
+<tr>
+<th>Spalte 1</th>
+<th align="center">Spalte 2</th>
+<th align="center">Spalte 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Spalte 1.1</td>
+<td align="center">Spalte 2.1</td>
+<td align="center">Spalte 3.1</td>
+</tr>
+<tr>
+<td>Spalte 1.2</td>
+<td align="center">Spalte 2.2</td>
+<td align="center">Spalte 2.3</td>
+</tr>
+<tr>
+<td>Spalte 1.3</td>
+<td align="center">Spalte 2.3</td>
+<td align="center">Spalte 3.3</td>
+</tr>
+<tr>
+<td>Spalte 1.4</td>
+<td align="center">Spalte 2.4</td>
+<td align="center">Spalte 3.4</td>
+</tr>
+</tbody>
+</table>
+
+<p>Dieses Muster kann unendlich weitergeführt werden, wobei "tr" eine neue Zeile darstellt und "td" eine neue Spalte erstellt.</p>
+
+<h3>
+<a id="Que">8. Quellen</a>
+</h3>
+
+<p><a href="https://wiki.selfhtml.org/wiki/Startseite">selfhtml Wiki</a><br>
+<a Href="http://www.w3schools.com/">w3schools</a><br>
+<a href="http://www.bloggersentral.com/2013/03/content-spoiler-with-simple-css3.html">Tutorial Spoiler</a></p>
