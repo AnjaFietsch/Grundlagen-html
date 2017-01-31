@@ -120,10 +120,11 @@ Um einen äußeren Link zu erstellen wird dieselbe Form verwendet, die auch ein 
 
 <p>Die Bilder sollten in einem Ordner im  repository abgelegt sein, sodass diese problemlos geladen werden können.</p>
 
-<p><input class="spoilerbutton" type="button" value="Show" onclick="this.value=this.value=='Show'?'Hide':'Show';">
-<div class="spoiler"><div>
 Krasser Inhalt
-</div></div></p>
+<div id="spoiler" style="display:none"> 
+HIDDEN CONTENT HERE 
+</div> 
+<button title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Show/hide</button>
 
 <h3>
 <a id="Tab">7. Tabellen</a>
@@ -172,4 +173,4 @@ Hier zeige ich eine einfache Tabelle, für weitere Informationen kann <a href="h
 
 <p><a href="https://wiki.selfhtml.org/wiki/Startseite">selfhtml Wiki</a><br>
 <a Href="http://www.w3schools.com/">w3schools</a><br>
-<a href="http://www.bloggersentral.com/2013/03/content-spoiler-with-simple-css3.html">Tutorial Spoiler</a></p>
+<a href="http://www.bloggersentral.com/2009/12/create-show-hide-or-peek-boo.html">Tutorial Spoiler</a></p>
