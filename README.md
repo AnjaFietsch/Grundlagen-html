@@ -120,9 +120,8 @@ Um einen äußeren Link zu erstellen wird dieselbe Form verwendet, die auch ein 
 
 <p>Die Bilder sollten in einem Ordner im  repository abgelegt sein, sodass diese problemlos geladen werden können.</p>
 
-Krasser Inhalt
 <div id="spoiler" style="display:none"> 
-HIDDEN CONTENT HERE 
+<img src="images/Bild2.jpg" alt="Bild1" style="width:420px;height:420px;border:0;"> 
 </div> 
 <button title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Show/hide</button>
 
