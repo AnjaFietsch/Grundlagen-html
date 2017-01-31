@@ -175,7 +175,7 @@ Hier zeige ich eine einfache Tabelle, für weitere Informationen kann <a href="h
 <button title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Show/hide</button>
 
 <p>Durch diese Methode ist es möglich, alles zu verstecken, ob es sich um Text oder Bilder handelt macht dabei keinen Unterschied.<br>
-Auch an dieser Stelle muss aber darauf geachtet werden, dass alle Befehle richtig verwendet werden, da sonst Fehler entstehen können und nicht das gewünschte angezeigt wird.</p>
+Auch an dieser Stelle muss aber darauf geachtet werden, dass alle Befehle richtig verwendet werden, da sonst Fehler entstehen können und nicht das Gewünschte angezeigt wird.</p>
 
 <h3>
 <a id="Que">9. Quellen</a>
