@@ -19,8 +19,7 @@ Eine Erkärung für html und deren Grundfunktionen. Falls noch weitere Fragen k�
 <li>8. Quellen</li>
 
 <h3>
-1.Überschriften
-</h3>
+1.Überschriften</h3>
 
 <h1>
 Überschrift
