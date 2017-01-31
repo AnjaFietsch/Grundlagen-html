@@ -1,7 +1,7 @@
 # Welcome to GitHub Pages
 
 <h2> 
-Eine Erkärung für html und deren Grundfunktionen. Falls noch weitere Fragen können noch Rückfragen gestellt werden. 
+Eine Erkärung für html und deren Grundfunktionen.
 </h2>
 
 <h3>
@@ -15,7 +15,7 @@ Eine Erkärung für html und deren Grundfunktionen. Falls noch weitere Fragen k�
 <li><a href="#Äuß">5. äußere Links</a></li>
 <li><a href="#Bil">6. Bilder</a></li>
 <li><a href="#Tab">7. Tabellen</a></li>
-<li><a href="Que">8. Quellen</a></li>
+<li><a href="#Que">8. Quellen</a></li>
 </ul>
 
 <h3>
