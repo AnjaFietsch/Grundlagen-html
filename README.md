@@ -116,13 +116,13 @@ Um einen äußeren Link zu erstellen wird dieselbe Form verwendet, die auch ein 
 
 <p>Bilder besitzen einen eigenen Befehl, auch die Größe der Bilder kann variiert werden um beispielsweise zwei Bilder nebeneinander zu stellen.</p>
 
-<p><img src="images/Bild1.jpg" alt="Bild1" style="width:42px;height:42px;border:0;"></p>
+<p><img src="images/Bild1.jpg" alt="Bild1" style="width:420px;height:420px;border:0;"></p>
 
 <p>Die Bilder sollten in einem Ordner im  repository abgelegt sein, sodass diese problemlos geladen werden können.</p>
 
 <p><input class="spoilerbutton" type="button" value="Show" onclick="this.value=this.value=='Show'?'Hide':'Show';">
 <div class="spoiler"><div>
-<img src="images/Bild2.jpg" alt="Bild2" style="width:42px;height:42px;border:0;">
+<p><img src="images/Bild2.jpg" alt="Bild2" style="width:420px;height:420px;border:0;"></p>
 </div></div></p>
 
 <h3>
