@@ -19,7 +19,7 @@ Eine Erkärung für html und deren Grundfunktionen.
 </ul>
 
 <h3>
-<a id="Übe">1.Überschriften</a>
+<a id="Übe">1. Überschriften</a>
 </h3>
 
 <h1>
@@ -79,13 +79,13 @@ Zeilenumbruch statt</p>
 <a id="Fet">3. Textformatierung</a>
 </h3>
 
-<p>Um <b>fett</b> zu schreiben wird der Befehl "strong" verwendet. <b>Auch längere Texte können bearbeitet werden.</b></p>
+<p>Um <b>fett</b> zu schreiben wird der Befehl "b" verwendet. <b>Auch längere Texte können bearbeitet werden.</b></p>
 
 <p>Um <i>kursiv</i> zu schreiben wird der Befehl "i" verwendet. <i>Auch hier gilt wieder die Regel für längere Texte.</i></p>
 
 <p>Es kann auch <small>klein</small>geschrieben werden</p>
 
-<p style="color:blue;">Schriftfarbe kann verändert werden.</p>
+<p style="color:blue;">Auch die Schriftfarbe kann verändert werden.</p>
 
 <p style="color:orange;">Fast alle Farben sind möglich, in den Quellen ist eine Liste angegeben.</p>
 
@@ -110,7 +110,7 @@ Dies geschieht durch eine id, die zugewiesen wird. Auch hier darf der Befehl "a"
 </h3>
 
 <p>Äußere Links, also Links, die zu anderen Websites führen, verhalten sich ähnlich wie die inneren Links.<br>
-Um einen äußeren Link zu erstellen wird dieselbe Form verwendet, die auch ein innerer Link verwendet, mit dem Unterschied, dass keine id notwendig ist, stattdessen wird der Link zum Ziel eingefügt.</p>
+Um einen äußeren Link zu erstellen wird dieselbe Form verwendet, die auch ein innerer Link verwendet, mit dem Unterschied, dass keine id notwendig ist. Stattdessen wird der Link zum Ziel eingefügt.</p>
 
 <p><a href="http://stormarnschule.de/">Stormarnschule</a></p>
 
@@ -130,7 +130,7 @@ Um einen äußeren Link zu erstellen wird dieselbe Form verwendet, die auch ein 
 <a id="Tab">7. Tabellen</a>
 </h3>
 
-<p>Es gibt einfache Tabellen, die ohne großen Aufwand erstellt werden können, diesen können durch zusätzliche Befehle aber weitere Funktionen und individualisierungen zugewiesen werden.<br>
+<p>Es gibt einfache Tabellen, die ohne großen Aufwand erstellt werden können. Diesen können durch zusätzliche Befehle aber weitere Funktionen und individualisierungen zugewiesen werden.<br>
 Hier zeige ich eine einfache Tabelle, für weitere Informationen kann <a href="http://www.w3schools.com/html/html_tables.asp">hier</a> gesucht werden.</p>
 
 <table>
@@ -166,12 +166,6 @@ Hier zeige ich eine einfache Tabelle, für weitere Informationen kann <a href="h
 </table>
 
 <p>Dieses Muster kann unendlich weitergeführt werden, wobei "tr" eine neue Zeile darstellt und "td" eine neue Spalte erstellt.</p>
-
-<h3>
-<a id="Spo">8. Spoiler</a>
-</h3>
-
-<p>Um eine Seite nicht unnötig lang erscheinen zu lassen kann man Informationen verschachteln. Dies ist durch Spoiler möglich.</p>
 
 <h3>
 <a id="Que">8. Quellen</a>
