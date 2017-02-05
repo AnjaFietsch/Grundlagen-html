@@ -10,7 +10,7 @@ Eine Erkärung für html und deren Grundfunktionen.
 <ul>
 <li><a href="#Übe">1. Überschriften</a></li>
 <li><a href="#Abs">2. Absätze</a></li>
-<li><a href="#Fet">3. fett / kursiv</a></li>
+<li><a href="#Fet">3. fett / kursiv/style</a></li>
 <li><a href="#Inn">4. innere Links</a></li>
 <li><a href="#Äuß">5. äußere Links</a></li>
 <li><a href="#Bil">6. Bilder</a></li>
@@ -76,12 +76,16 @@ Zeilenumbruch statt</p>
 </ul>
 
 <h3>
-<a id="Fet">3. fett / kursiv</a>
+<a id="Fet">3. fett / kursiv/style</a>
 </h3>
 
 <p>Um <strong>fett</strong> zu schreiben wird der Befehl "strong" verwendet. <strong>Auch längere Texte können bearbeitet werden.</strong></p>
 
 <p>Um <i>kursiv</i> zu schreiben wird der Befehl "i" verwendet. <i>Auch hier gilt wieder die Regel für längere Texte.</i></p>
+
+<p style="color:blue;">Schriftfarbe kann verändert werden.</p>
+
+<p style="color:orange;">Welche Farben verwendet können ist in den Quellen zu finden.</p>
 
 <p>Es gibt noch weitere Befehle, die verwendet werden können, um Text zu formatieren. Diese können an "hier" nachgelesen werden.</p>
 
@@ -118,7 +122,7 @@ Um einen äußeren Link zu erstellen wird dieselbe Form verwendet, die auch ein 
 
 <p><img src="images/Bild1.jpg" alt="Bild1" style="width:420px;height:420px;border:0;"></p>
 
-<p>Die Bilder sollten in einem Ordner im  repository abgelegt sein, sodass diese problemlos geladen werden können.</p>
+<p>Die Bilder sollten in einem Ordner im repository abgelegt sein, damit diese problemlos geladen werden können.</p>
 
 <h3>
 <a id="Tab">7. Tabellen</a>
@@ -173,28 +177,4 @@ Hier zeige ich eine einfache Tabelle, für weitere Informationen kann <a href="h
 
 <p><a href="https://wiki.selfhtml.org/wiki/Startseite">selfhtml Wiki</a><br>
 <a Href="http://www.w3schools.com/">w3schools</a><br>
-
-
-  
-| Motor         | Bezeichnung | Richtung            |
-|---------------|:-----------:|:-------------------:|
-| vorne rechts  | Motor 1     | Uhrzeigersinn       |
-| hinten rechts | Motor 2     | gegen Uhrzeigersinn |
-| hinten links  | Motor 3     | Uhrzeigersinn       |
-| vorne links   | Motor 4     | gegen Uhrzeigersinn |  
-  
-In der Praxis sieht es wie auf den folgenden Bildern aus.  
-Uhrzeigersinn  
-![alt text](https://github.com/StefanScheunemann/Arduino-Drone/blob/master/Bilder/DSC_0020_5.JPG)  
-Gegen Uhrzeigersinn  
-![alt text](https://github.com/StefanScheunemann/Arduino-Drone/blob/master/Bilder/DSC_0019_5.JPG)  
-  
-Jetzt ist die gesamte Hardware verbaut. Im nächsten Schritt wird diese verkabelt.  
-Ich empfehle, alle Verbindungen zu löten, da so eine feste Verbindung entsteht. Aber auch z.B. Kabelhülsen funktionieren. In jedem Fall muss sich streng an die schematics gehalten werden!  
-Zum besseren Verständis der Verbindungen  
-Verbindung der ESCs, falls der Rahmen kein PDB (power distribuition board) enthält  
-![alt text](https://github.com/StefanScheunemann/Arduino-Drone/blob/master/Bilder/DSC_0005_11.JPG)  
-Kabel am Arduino  
-![alt text](https://github.com/StefanScheunemann/Arduino-Drone/blob/master/Bilder/DSC_0021_5.JPG)  
-![alt text](https://github.com/StefanScheunemann/Arduino-Drone/blob/master/Bilder/DSC_0027_5.JPG)
-  
+<a Href="http://www.w3schools.com/colors/colors_names.asp">html Color names</a>
