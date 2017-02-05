@@ -15,8 +15,7 @@ Eine Erkärung für html und deren Grundfunktionen.
 <li><a href="#Äuß">5. äußere Links</a></li>
 <li><a href="#Bil">6. Bilder</a></li>
 <li><a href="#Tab">7. Tabellen</a></li>
-<li><a href="#Spo">8. Spoiler</a></li>
-<li><a href="#Que">9. Quellen</a></li>
+<li><a href="#Que">8. Quellen</a></li>
 </ul>
 
 <h3>
@@ -168,19 +167,9 @@ Hier zeige ich eine einfache Tabelle, für weitere Informationen kann <a href="h
 
 <p>Um eine Seite nicht unnötig lang erscheinen zu lassen kann man Informationen verschachteln. Dies ist durch Spoiler möglich.</p>
 
-Überschrift
-<div id="spoiler" style="display:none"> 
-<img src="images/Bild2.jpg" alt="Bild1" style="width:840px;height:840px;border:0;"> 
-</div> 
-<button title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Show/hide</button>
-
-<p>Durch diese Methode ist es möglich, alles zu verstecken, ob es sich um Text oder Bilder handelt macht dabei keinen Unterschied.<br>
-Auch an dieser Stelle muss aber darauf geachtet werden, dass alle Befehle richtig verwendet werden, da sonst Fehler entstehen können und nicht das Gewünschte angezeigt wird.</p>
-
 <h3>
-<a id="Que">9. Quellen</a>
+<a id="Que">8. Quellen</a>
 </h3>
 
 <p><a href="https://wiki.selfhtml.org/wiki/Startseite">selfhtml Wiki</a><br>
 <a Href="http://www.w3schools.com/">w3schools</a><br>
-<a href="http://www.bloggersentral.com/2009/12/create-show-hide-or-peek-boo.html">Tutorial Spoiler</a></p>
