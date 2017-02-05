@@ -10,7 +10,7 @@ Eine Erkärung für html und deren Grundfunktionen.
 <ul>
 <li><a href="#Übe">1. Überschriften</a></li>
 <li><a href="#Abs">2. Absätze</a></li>
-<li><a href="#Fet">3. fett / kursiv/style</a></li>
+<li><a href="#Fet">3. Textformatierung</a></li>
 <li><a href="#Inn">4. innere Links</a></li>
 <li><a href="#Äuß">5. äußere Links</a></li>
 <li><a href="#Bil">6. Bilder</a></li>
@@ -76,18 +76,20 @@ Zeilenumbruch statt</p>
 </ul>
 
 <h3>
-<a id="Fet">3. fett / kursiv/style</a>
+<a id="Fet">3. Textformatierung</a>
 </h3>
 
-<p>Um <strong>fett</strong> zu schreiben wird der Befehl "strong" verwendet. <strong>Auch längere Texte können bearbeitet werden.</strong></p>
+<p>Um <b>fett</b> zu schreiben wird der Befehl "strong" verwendet. <b>Auch längere Texte können bearbeitet werden.</b></p>
 
 <p>Um <i>kursiv</i> zu schreiben wird der Befehl "i" verwendet. <i>Auch hier gilt wieder die Regel für längere Texte.</i></p>
 
+<p>Es kann auch <small>klein</small>geschrieben werden</p>
+
 <p style="color:blue;">Schriftfarbe kann verändert werden.</p>
 
-<p style="color:orange;">Welche Farben verwendet können ist in den Quellen zu finden.</p>
+<p style="color:orange;">Fast alle Farben sind möglich, in den Quellen ist eine Liste angegeben.</p>
 
-<p>Es gibt noch weitere Befehle, die verwendet werden können, um Text zu formatieren. Diese können an "hier" nachgelesen werden.</p>
+<p>Es gibt noch weitere Befehle, die verwendet werden können, um Text zu formatieren. Diese können <a href="http://www.w3schools.com/html/html_formatting.asp">"hier"</a> nachgelesen werden.</p>
 
 <h3>
 <a id="Inn">4. innere Links</a>
