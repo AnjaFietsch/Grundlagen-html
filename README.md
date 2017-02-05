@@ -173,3 +173,28 @@ Hier zeige ich eine einfache Tabelle, für weitere Informationen kann <a href="h
 
 <p><a href="https://wiki.selfhtml.org/wiki/Startseite">selfhtml Wiki</a><br>
 <a Href="http://www.w3schools.com/">w3schools</a><br>
+
+
+  
+| Motor         | Bezeichnung | Richtung            |
+|---------------|:-----------:|:-------------------:|
+| vorne rechts  | Motor 1     | Uhrzeigersinn       |
+| hinten rechts | Motor 2     | gegen Uhrzeigersinn |
+| hinten links  | Motor 3     | Uhrzeigersinn       |
+| vorne links   | Motor 4     | gegen Uhrzeigersinn |  
+  
+In der Praxis sieht es wie auf den folgenden Bildern aus.  
+Uhrzeigersinn  
+![alt text](https://github.com/StefanScheunemann/Arduino-Drone/blob/master/Bilder/DSC_0020_5.JPG)  
+Gegen Uhrzeigersinn  
+![alt text](https://github.com/StefanScheunemann/Arduino-Drone/blob/master/Bilder/DSC_0019_5.JPG)  
+  
+Jetzt ist die gesamte Hardware verbaut. Im nächsten Schritt wird diese verkabelt.  
+Ich empfehle, alle Verbindungen zu löten, da so eine feste Verbindung entsteht. Aber auch z.B. Kabelhülsen funktionieren. In jedem Fall muss sich streng an die schematics gehalten werden!  
+Zum besseren Verständis der Verbindungen  
+Verbindung der ESCs, falls der Rahmen kein PDB (power distribuition board) enthält  
+![alt text](https://github.com/StefanScheunemann/Arduino-Drone/blob/master/Bilder/DSC_0005_11.JPG)  
+Kabel am Arduino  
+![alt text](https://github.com/StefanScheunemann/Arduino-Drone/blob/master/Bilder/DSC_0021_5.JPG)  
+![alt text](https://github.com/StefanScheunemann/Arduino-Drone/blob/master/Bilder/DSC_0027_5.JPG)
+  
