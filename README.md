@@ -1,7 +1,7 @@
 # Welcome to GitHub Pages
 
 <h2> 
-Eine Erkärung für html und deren Grundfunktionen.
+Eine Erkärung die wichtigsten html Befehle.
 </h2>
 
 <h3>
@@ -60,12 +60,14 @@ Eine Erkärung für html und deren Grundfunktionen.
 <p>Ohne den Befehl ensteht ein langer Textblock</p>
 
 <p>Egal wie lang ein Textblock ist, am Anfang und am Ende muss ein Befehl gesetzt werden.
-Einfach in die nächste Zeile schreiben erstellt
+Nur in die nächste Zeile 
+schreiben 
+erstellt
 keinen
 Zeilenumbruch</p>
 
-<p>Wenn ein Zelienumbruch erzwungen werden soll wird der Befehl "br" verwendet,<br>
-durch diesen findet ein einfacher<br>
+<p>Um einen einfachen Zeilenumbruch zu erzeugen und keinen neuen Paragraphen zu erstellen wird der Befehl "br" verwendet,<br>
+durch diesen findet ein<br>
 Zeilenumbruch statt</p>
 
 <ul>
@@ -101,8 +103,8 @@ Zeilenumbruch statt</p>
 
 <p><a href="#Inh">Inhaltsverzeichnis</a></p>
 
-<p>Es wird also die Zeile als normaler Paragraph markiert, und mit dem Befehl "href=#(id Bookmark) und "a" die Verlinkung generiert.
-Zusätzlich muss an die Stelle, zu die der Link führen soll, markiert werden.<br>
+<p>Es wird die Zeile als normaler Paragraph markiert und mit dem Befehl "href=#(id Bookmark) und "a" die Verlinkung generiert.
+Zusätzlich muss die Stelle, wohin der Link führen soll, markiert werden.<br>
 Dies geschieht durch eine id, die zugewiesen wird. Auch hier darf der Befehl "a" nicht ausgelassen werden.</p>
 
 <p>Jedes Bookmark, dass durch eine id markiert ist kann von jeder beliebigen Stelle aus aufgerufen werden und verlinkt werden und auch mehrfach verwendet werden.</p>
