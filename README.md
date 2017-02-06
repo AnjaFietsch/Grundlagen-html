@@ -85,7 +85,7 @@ Zeilenumbruch statt</p>
 
 <p>Text kann auch <mark>markiert</mark> werden.</p>
 
-<p>Oft ist es praktisch auch <sub>tiefgestellt</sub> oder <sup>hochgestellt</sup> schreiben zu können.</p>
+<p>Oft ist es praktisch auch <sub>tiefgestellt</sub> oder <sup>hochgestellt</sup> schreiben zu können. Dies bezieht sich immer auf das vorherige Wort und wird diesem angeschlossen.</p>
 
 <p style="color:blue;">Auch die Schriftfarbe kann verändert werden.</p>
 
