@@ -83,11 +83,9 @@ Zeilenumbruch statt</p>
 
 <p>Um <i>kursiv</i> zu schreiben wird der Befehl "i" verwendet. <i>Auch hier gilt wieder die Regel für längere Texte.</i></p>
 
-<p>Es kann auch <small>klein</small>geschrieben werden</p>
+<p>Text kann auch <mark>markiert</mark> werden.</p>
 
-<p>Text kann auch <mark>markiert</mark>werden.</p>
-
-<p>Oft ist es praktisch auch<sub>tiefgestellt</sub>oder<sup>hochgestellt</sup>des normalen Textes schreiben zu können.</p>
+<p>Oft ist es praktisch auch <sub>tiefgestellt</sub> oder <sup>hochgestellt</sup> schreiben zu können.</p>
 
 <p style="color:blue;">Auch die Schriftfarbe kann verändert werden.</p>
 
