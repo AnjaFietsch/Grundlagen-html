@@ -85,6 +85,10 @@ Zeilenumbruch statt</p>
 
 <p>Es kann auch <small>klein</small>geschrieben werden</p>
 
+<p>Text kann auch <mark>markiert</mark>werden.</p>
+
+<p>Oft ist es praktisch auch<sub>tiefgestellt</sub>oder<sup>hochgestellt</sup>des normalen Textes schreiben zu können.</p>
+
 <p style="color:blue;">Auch die Schriftfarbe kann verändert werden.</p>
 
 <p style="color:orange;">Fast alle Farben sind möglich, in den Quellen ist eine Liste angegeben.</p>
