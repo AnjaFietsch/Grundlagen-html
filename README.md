@@ -1,7 +1,7 @@
 # Welcome to GitHub Pages
 
 <h2> 
-Eine Erkärung die wichtigsten html Befehle.
+Eine Erkärung der wichtigsten html Funktionen.
 </h2>
 
 <h3>
@@ -55,18 +55,18 @@ Eine Erkärung die wichtigsten html Befehle.
 <a id="Abs">2. Absätze</a>
 </h3>
 
-<p>Um einen Absatz zu erstellen muss ein Befehl verwendet werden.</p>
+<p>Um einen Absatz zu erstellen muss ein Tag verwendet werden.</p>
 
-<p>Ohne den Befehl ensteht ein langer Textblock</p>
+<p>Ohne den Tag ensteht ein langer Textblock</p>
 
-<p>Egal wie lang ein Textblock ist, am Anfang und am Ende muss ein Befehl gesetzt werden.
+<p>Egal wie lang ein Textblock ist, am Anfang und am Ende muss ein Tag gesetzt werden.
 Nur in die nächste Zeile 
 schreiben 
 erstellt
 keinen
 Zeilenumbruch</p>
 
-<p>Um einen einfachen Zeilenumbruch zu erzeugen und keinen neuen Paragraphen zu erstellen wird der Befehl "br" verwendet,<br>
+<p>Um einen einfachen Zeilenumbruch zu erzeugen und keinen neuen Paragraphen zu erstellen wird der Tag "br" verwendet,<br>
 durch diesen findet ein<br>
 Zeilenumbruch statt</p>
 
@@ -81,9 +81,9 @@ Zeilenumbruch statt</p>
 <a id="Fet">3. Textformatierung</a>
 </h3>
 
-<p>Um <b>fett</b> zu schreiben wird der Befehl "b" verwendet. <b>Auch längere Texte können bearbeitet werden.</b></p>
+<p>Um <b>fett</b> zu schreiben wird der Tag "b" verwendet. <b>Auch längere Texte können bearbeitet werden.</b></p>
 
-<p>Um <i>kursiv</i> zu schreiben wird der Befehl "i" verwendet. <i>Auch hier gilt wieder die Regel für längere Texte.</i></p>
+<p>Um <i>kursiv</i> zu schreiben wird der Tag "i" verwendet. <i>Auch hier gilt wieder die Regel für längere Texte.</i></p>
 
 <p>Text kann auch <mark>markiert</mark> werden.</p>
 
@@ -93,19 +93,19 @@ Zeilenumbruch statt</p>
 
 <p style="color:orange;">Fast alle Farben sind möglich, in den Quellen ist eine Liste angegeben.</p>
 
-<p>Es gibt noch weitere Befehle, die verwendet werden können, um Text zu formatieren. Diese können <a href="http://www.w3schools.com/html/html_formatting.asp">"hier"</a> nachgelesen werden.</p>
+<p>Es gibt noch weitere Tags, die verwendet werden können, um Text zu formatieren. Diese können <a href="http://www.w3schools.com/html/html_formatting.asp">"hier"</a> nachgelesen werden.</p>
 
 <h3>
 <a id="Inn">4. innere Links</a>
 </h3>
 
-<p>Für innere Verlinkungen im Dokument, also zum Beispiel für ein Inhaltsverzeichnis, werden mehrere Befehle benötigt.</p>
+<p>Für innere Verlinkungen im Dokument, also zum Beispiel für ein Inhaltsverzeichnis, werden Tags und Attribute benötigt.</p>
 
 <p><a href="#Inh">Inhaltsverzeichnis</a></p>
 
-<p>Es wird die Zeile als normaler Paragraph markiert und mit dem Befehl "href=#(id Bookmark) und "a" die Verlinkung generiert.
+<p>Es wird die Zeile als normaler Paragraph markiert und mit dem Tag "href=#(id Bookmark) und "a" die Verlinkung generiert.
 Zusätzlich muss die Stelle, wohin der Link führen soll, markiert werden.<br>
-Dies geschieht durch eine id, die zugewiesen wird. Auch hier darf der Befehl "a" nicht ausgelassen werden.</p>
+Dies geschieht durch eine Attributs "id", die zugewiesen wird. Auch hier darf der Tag "a" nicht ausgelassen werden.</p>
 
 <p>Jedes Bookmark, dass durch eine id markiert ist kann von jeder beliebigen Stelle aus aufgerufen werden und verlinkt werden und auch mehrfach verwendet werden.</p>
 
@@ -124,7 +124,7 @@ Um einen äußeren Link zu erstellen wird dieselbe Form verwendet, die auch ein 
 <a id="Bil">6. Bilder</a>
 </h3>
 
-<p>Bilder besitzen einen eigenen Befehl, auch die Größe der Bilder kann variiert werden um beispielsweise zwei Bilder nebeneinander zu stellen.</p>
+<p>Bilder besitzen einen eigenen Tag, auch die Größe der Bilder kann variiert werden, um beispielsweise zwei Bilder nebeneinander zu stellen.</p>
 
 <p><img src="images/Bild1.jpg" alt="Bild1" style="width:420px;height:420px;border:0;"></p>
 
@@ -134,7 +134,7 @@ Um einen äußeren Link zu erstellen wird dieselbe Form verwendet, die auch ein 
 <a id="Tab">7. Tabellen</a>
 </h3>
 
-<p>Es gibt einfache Tabellen, die ohne großen Aufwand erstellt werden können. Diesen können durch zusätzliche Befehle aber weitere Funktionen und individualisierungen zugewiesen werden.<br>
+<p>Es gibt einfache Tabellen, die ohne großen Aufwand erstellt werden können. Diesen können durch zusätzliche Tags aber weitere Funktionen und individualisierungen zugewiesen werden.<br>
 Hier zeige ich eine einfache Tabelle, für weitere Informationen kann <a href="http://www.w3schools.com/html/html_tables.asp">hier</a> gesucht werden.</p>
 
 <table>
